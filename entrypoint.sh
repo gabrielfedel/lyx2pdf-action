@@ -2,4 +2,4 @@
 set -e
 
 echo "Building $1 and and generating pdf"
-lyx --export pdf4 $1
+lyx -batch -e pdf $1
