@@ -10,6 +10,7 @@ runs:
   image: Dockerfile
   args:
     - ${{ inputs.root_file }}
+    - ${{ inputs.root_file_wo_ext }}
 branding:
   icon: book-open
   color: gray-dark
